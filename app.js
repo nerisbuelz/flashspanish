@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     // Sostituisci con il tuo link Raw GitHub
-    fetch('https://raw.githubusercontent.com/NOMEUTENTE/NOMEREPO/main/vocabulario.json')
+    fetch('https://raw.githubusercontent.com/nerisbuelz/flashspanish/refs/heads/main/vocabulario.json')
       .then(response => response.json())
       .then(data => {
         setFlashcards(data);
